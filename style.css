@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(72, 2, 99);
+    height: 100%;
+}
+div.award div {
+    width: 750px;
+    height: 450px;
+    position: fixed;
+    left: calc(50% - 375px);
+    top: calc(45% - 200px);
+    border-radius: 15px;
+}
+div#award-k {
+    background-color: rgb(105, 5, 145);
+    border: 10px solid rgb(86, 2, 119);
+    opacity: 1;
+    text-align: center;
+    z-index: 0;
+    color: aliceblue;
+}
+div.cover {
+    opacity: 0;
+    background-color: rgb(105, 5, 145);
+    border: 10px solid rgb(86, 2, 119);
+    z-index: 1;
+}
+div.cover button {
+    position: relative;
+    left: calc(50% - 50px);
+    top: calc(50% - 30px);
+}
+button {
+  background-color: rgb(0, 191, 0);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  opacity: 0;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 25px;
+}
